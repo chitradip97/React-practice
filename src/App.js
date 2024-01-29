@@ -10,6 +10,9 @@ import App_dif_effect from './components/UseEffectDif';
 import React from 'react';
 import ContextApiCom from './ContextApi/ContextApiCom';
 import UseContexthook from './UseContextHook/UseContext';
+import FormControlCom from './Js Form/FormControlComponents';
+import UncontroledCom from './Js Form/FormUncontrolledCom';
+import ParentCom from './Lifting_State_Up/ParentCom';
 
 // You are building a simple React application that allows users to toggle between light mode and dark mode. You have already set up the basic structure of your component, and you decide to use the useState hook to manage the current mode.
 
@@ -32,7 +35,10 @@ import UseContexthook from './UseContextHook/UseContext';
     {/* <App_dif/> */}
     {/* <App_dif_effect/> */}
     {/* <ContextApiCom/> */}
-    <UseContexthook/>
+    {/* <UseContexthook/> */}
+    {/* <FormControlCom/> */}
+    {/* <UncontroledCom/> */}
+    <ParentCom/>
 
     </>
   );
